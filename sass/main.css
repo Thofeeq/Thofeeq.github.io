@@ -68,6 +68,10 @@ body {
   padding: 30px;
 }
 
+.profile-container .skills h3 {
+  margin-top: 2%;
+}
+
 .profile-container .skills hr {
   border: 2px solid white;
   border-radius: 50%;
@@ -75,14 +79,23 @@ body {
 }
 
 .profile-container .skills .languages {
-  margin-top: 2%;
+  margin-top: 4%;
   display: flex;
   justify-content: space-around;
 }
 
 .profile-container .skills .framework-libraries {
-  margin-top: 2%;
+  margin-top: 4%;
   display: flex;
+  justify-content: space-around;
+}
+
+.profile-container .skills .database {
+  margin-top: 4%;
+  display: flex;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
   justify-content: space-around;
 }
 
@@ -104,4 +117,26 @@ body {
 
 ion-icon {
   font-size: 64px;
+}
+
+.hidden {
+  display: none;
+}
+
+@media all and (max-width: 985px) {
+  .contact-menu {
+    display: flex;
+    justify-content: center;
+  }
+  .contact-menu .menu-items {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+  }
+  .contact-menu .menu-items a {
+    color: white;
+  }
+  .contact-menu .menu-items a:hover {
+    border-bottom: 5px solid white;
+  }
 }
