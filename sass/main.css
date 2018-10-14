@@ -1,5 +1,13 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
-  background: url(../images/bg3-min.jpg) no-repeat center center fixed;
+  background: url(../images/bg6.jpeg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -69,7 +77,7 @@ body {
 
 .profile-container .resume a:hover {
   text-decoration: none;
-  color: #2783B4;
+  color: #FFBFAC;
 }
 
 .profile-container .skills {
@@ -153,8 +161,8 @@ ion-icon {
   }
   .contact-menu .menu-items {
     display: flex;
-    justify-content: space-between;
     width: 100%;
+    margin-left: 10px;
   }
   .contact-menu .menu-items a {
     color: white;
