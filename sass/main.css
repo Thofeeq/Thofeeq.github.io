@@ -59,6 +59,19 @@ body {
   text-align: center;
 }
 
+.profile-container .resume {
+  align-self: center;
+}
+
+.profile-container .resume a {
+  color: white;
+}
+
+.profile-container .resume a:hover {
+  text-decoration: none;
+  color: #06D6A0;
+}
+
 .profile-container .skills {
   text-align: center;
   margin-top: 10%;

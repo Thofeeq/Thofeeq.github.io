@@ -54,6 +54,17 @@ body {
     text-align: center;
   }
 
+  .resume {
+    align-self: center;
+    a{
+      color: white;
+    }
+    a:hover{
+      text-decoration: none;
+      color:#06D6A0;
+    }
+  }
+
   .skills{
     text-align:center;
     margin-top:10%;
