@@ -1,10 +1,10 @@
 body {
-  background: url(../images/bg.jpg) no-repeat center center fixed;
+  background: url(../images/bg3.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Kodchasan', sans-serif;
   color: white;
 }
 
@@ -29,7 +29,7 @@ body {
 
 .profile-container {
   display: flex;
-  background-color: rgba(70, 69, 69, 0.7);
+  background-color: rgba(128, 128, 128, 0.3);
   justify-content: center;
   flex-direction: column;
 }
@@ -69,7 +69,7 @@ body {
 
 .profile-container .resume a:hover {
   text-decoration: none;
-  color: #06D6A0;
+  color: #2783B4;
 }
 
 .profile-container .skills {
