@@ -109,6 +109,10 @@ body {
   padding: 30px;
 }
 
+.profile-container .projects h3 {
+  margin-top: 5%;
+}
+
 .profile-container .projects hr {
   border: 2px solid white;
   border-radius: 50%;
