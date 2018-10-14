@@ -149,15 +149,6 @@ ion-icon {
 }
 
 @media all and (max-width: 985px) {
-  html {
-    background: url(../images/bg6.jpeg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: auto;
-    overflow: hidden;
-  }
   .container-fluid {
     padding-right: 0;
     padding-left: 0;
