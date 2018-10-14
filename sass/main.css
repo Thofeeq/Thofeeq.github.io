@@ -54,6 +54,7 @@ body {
 }
 
 .profile-container .description {
+  padding: 50px;
   font-size: 1.3em;
   text-align: center;
 }
