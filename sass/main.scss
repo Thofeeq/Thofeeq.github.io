@@ -1,0 +1,104 @@
+body { 
+  background: url(../images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  color:white;
+}
+
+.contact-menu{
+  display: flex;
+  justify-content: flex-end;
+
+  .menu-items{
+    display:flex;
+    justify-content: space-between;
+    width:30%;
+
+    a{
+      color:white;
+    }
+    a:hover{
+      border-bottom:5px solid white;
+    }
+  }
+}
+
+.profile-container{
+  display: flex;
+  background-color:rgba(70, 69, 69, 0.7);
+  justify-content: center;
+  flex-direction: column;
+  i{
+    font-size:64px;
+  }
+  .profile-card {
+    display: flex;
+    flex-direction: column;
+    height:30vh;
+    padding:20px;
+    justify-content: space-between;
+    align-items: center;
+    img{
+      width: 200px;
+      height: 182px;
+      border-radius: 50%;
+    }
+  }
+
+  .description{
+    font-size:1.3em;
+    text-align: center;
+  }
+
+  .skills{
+    text-align:center;
+    margin-top:10%;
+    h2{
+      padding:30px;
+    }
+    hr{
+      border: 2px solid white;
+      border-radius: 50%;
+      width:60%;
+    }
+    .languages {
+      margin-top:2%;
+      display: flex;
+      justify-content: space-around;
+    }
+    .framework-libraries {
+      margin-top:2%;
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+
+  .projects {
+    margin-top:10%;
+    font-size: 1.3em;
+    text-align: center;
+    h2{
+      padding:30px;
+    }
+    hr{
+      border: 2px solid white;
+      border-radius: 50%;
+      width:60%;
+    }
+  }
+
+
+
+}
+
+
+// .debug {
+//   border: 1px red solid;
+// }
+
+ion-icon{
+  font-size:64px;
+}

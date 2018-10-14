@@ -1,0 +1,38 @@
+body {
+  background: url(../images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.profile-container {
+  display: flex;
+  background-color: rgba(128, 128, 128, 0.5);
+  height: 200vh;
+  justify-content: center;
+}
+.profile-container .profile-card {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+}
+.profile-container .profile-card img {
+  width: 200px;
+  height: 182px;
+  border-radius: 50%;
+  align-self: center;
+}
+
+.debug {
+  border: 1px red solid;
+}
+
+ion-icon {
+  font-size: 128px;
+}
+
+/*# sourceMappingURL=main.css.map */
