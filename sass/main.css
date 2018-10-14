@@ -149,6 +149,16 @@ ion-icon {
 }
 
 @media all and (max-width: 985px) {
+  body {
+    background: url(../images/bg6.jpeg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Kodchasan', sans-serif;
+    color: white;
+    position: fixed;
+  }
   .container-fluid {
     padding-right: 0;
     padding-left: 0;
