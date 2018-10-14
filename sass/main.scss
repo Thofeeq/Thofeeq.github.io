@@ -123,12 +123,11 @@ ion-icon{
   .contact-menu{
     display: flex;
     justify-content: center;
-  
+    
     .menu-items{
       display:flex;
       justify-content: space-between;
-      width:50%;
-  
+      width:100%;
       a{
         color:white;
       }

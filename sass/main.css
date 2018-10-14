@@ -131,7 +131,7 @@ ion-icon {
   .contact-menu .menu-items {
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 100%;
   }
   .contact-menu .menu-items a {
     color: white;
