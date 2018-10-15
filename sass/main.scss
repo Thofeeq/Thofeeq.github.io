@@ -1,9 +1,7 @@
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
-  box-sizing: inherit;
-}
+
 body { 
   background: url(../images/bg6.jpeg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -12,7 +10,6 @@ body {
   background-size: cover;
   font-family: 'Kodchasan', sans-serif;
   color:white;
-  
 }
 
 .contact-menu{
@@ -41,14 +38,14 @@ body {
   i{
     font-size:64px;
   }
-  .profile-card {
-    
+  .profile-card { 
     display: flex;
     flex-direction: column;
     
     padding:20px;
     justify-content: space-between;
     align-items: center;
+
     img{
       width: 200px;
       height: 200px;
@@ -124,7 +121,6 @@ body {
       width:60%;
     }
     a{
-      
       color:rgba(255, 246, 118,0.7);
     }
     a:hover{
@@ -162,10 +158,6 @@ ion-icon{
 }
 
 @media all and (max-width:985px){
-
-
-
-
   .container-fluid {
     padding-right:0;
     padding-left:0;

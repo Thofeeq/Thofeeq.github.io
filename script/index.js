@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-
+// Adds "colored" class to icons when hovered
   $( "i" ).hover(
     function() {
       $( this ).addClass("colored");
