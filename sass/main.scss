@@ -132,11 +132,23 @@ body {
       color:rgb(255, 246, 118);
     }
   }
-
-
-
 }
-
+.footer-container{
+  display: flex;
+  justify-content: center;
+  background-color:#2C1A45;
+  margin-top:1%;
+  
+  .footer-notes{
+    display:flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    a{
+      color:white;
+    }
+  }
+}
 // .debug {
 //   border: 1px red solid;
 // }

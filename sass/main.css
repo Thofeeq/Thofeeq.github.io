@@ -148,6 +148,24 @@ body {
   color: #fff676;
 }
 
+.footer-container {
+  display: flex;
+  justify-content: center;
+  background-color: #2C1A45;
+  margin-top: 1%;
+}
+
+.footer-container .footer-notes {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: center;
+}
+
+.footer-container .footer-notes a {
+  color: white;
+}
+
 ion-icon {
   font-size: 64px;
 }
