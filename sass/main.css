@@ -140,6 +140,14 @@ body {
   width: 60%;
 }
 
+.profile-container .projects a {
+  color: rgba(255, 246, 118, 0.7);
+}
+
+.profile-container .projects a:hover {
+  color: #fff676;
+}
+
 ion-icon {
   font-size: 64px;
 }
