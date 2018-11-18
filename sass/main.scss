@@ -124,8 +124,11 @@ body {
       color:rgba(255, 246, 118,0.7);
     }
     a:hover{
-      // color:rgb(172, 164, 51);
       color:rgb(255, 246, 118);
+      text-decoration: none;
+    }
+    .devicon-heroku-original{
+      font-size:32px
     }
   }
 }
@@ -153,6 +156,7 @@ ion-icon{
   font-size:64px;
 }
 
+
 .hidden {
   display:none;
 }
@@ -168,8 +172,6 @@ ion-icon{
   .contact-menu{
     display: flex;
     justify-content: center;
-    // padding-right: 15px;
-    // padding-left: 15px;
 
     .menu-items{
       display:flex;
